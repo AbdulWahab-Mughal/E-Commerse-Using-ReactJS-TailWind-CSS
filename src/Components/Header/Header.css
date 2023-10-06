@@ -1,0 +1,27 @@
+.Head{
+    height: 14vh !important;
+    display: flex;
+    align-items: center !important;
+}
+sup{
+    background-color: orangered;
+    border-radius: 50px;
+    text-align: center!important;
+    font-size: 15px !important;
+    padding: 13.5px 11px 0px 10px !important;
+    position: relative !important;
+    top: -13px !important;
+    left: -1.5px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a.active{
+    border-radius: 5px;
+    background-color: orangered;
+    padding: 11px 14px;
+    transition-property: all;
+    transition-duration: .5s;
+}

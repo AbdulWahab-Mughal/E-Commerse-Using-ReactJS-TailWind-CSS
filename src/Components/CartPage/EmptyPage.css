@@ -1,0 +1,32 @@
+.body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    align-items:start;
+    justify-content: center;
+    min-height: 100vh ;
+    background: #fff;
+}
+.editH1{
+    font-size: 6em !important;
+    font-weight: 500;
+    color: #222;
+    letter-spacing: 5px;
+    cursor: pointer;
+
+}
+.editH1 span{
+    transition: 0.5s;
+}
+.editH1:hover span:nth-child(1){
+    margin-right: 10px;
+}
+.editH1:hover span:nth-child(1)::after{
+    content: "👀It's";
+}
+.editH1:hover span:nth-child(2){
+    margin-left: 40px;
+}
+.editH1:hover span{
+    color: #fff;
+    text-shadow: 0 0 10px #992727,0 0 20px #943636,0 0 40px #852828,0 0 80px #a53d3d,0 0 120px #a33535,0 0 160px #fff;
+}
